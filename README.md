@@ -26,39 +26,6 @@ Esse projeto é um exercício na aula de `Eletiva II` da faculdade, onde foram i
 
 # :open_mouth: Imagem do projeto rodando
 
-<div class="print">
-    <p>Nesta imagem podemos ver que o nome do personagem pesquisado foi <strong>pines</strong>, que é o sobrenome dos personagens principais do desenho <strong>Gravity Falls</strong>.</p>
-    <div class="layout-total">
-        <img src="public/projeto_rodando.png">
-        <div class="layout">
-            <img src="public/um_card_linha.png">
-            <img src="public/dois_cards_linha.png" style="margin-top: 15px">
-        </div>
-    </div>
-</div>
+Nesta imagem podemos ver que o nome do personagem pesquisado foi **pines**, que é o sobrenome dos personagens principais do desenho **Gravity Falls**.
 
-<style>
-    .print {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-    }
-    img {
-        border-radius: 15px;
-        object-fit: cover;
-    }
-    .print .layout-total {
-        position: relative;
-        display: flex;
-        width: 95%;
-    }
-    .print .layout-total .layout {
-        display: flex;
-        flex-direction: column;
-        margin-left: 15px;
-        justify-content: space-between;
-    }
-</style>
+![Alt text](public/disney-api-vue.png)
