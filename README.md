@@ -26,6 +26,6 @@ Esse projeto é um exercício na aula de `Eletiva II` da faculdade, onde foram i
 
 # :open_mouth: Imagem do projeto rodando
 
-Nesta imagem podemos ver que o nome do personagem pesquisado foi **pines**, que é o sobrenome dos personagens principais do desenho **Gravity Falls**.
+Nesta imagem podemos ver que o nome do personagem pesquisado foi **pines**, que é o sobrenome dos personagens principais do desenho **Gravity Falls**, retornando assim toda a família dos personagens principais que a API possui.
 
 ![Alt text](public/disney-api-vue.png)
