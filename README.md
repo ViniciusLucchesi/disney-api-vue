@@ -1,6 +1,30 @@
-# :confused: Como rodar o projeto?
+<div align="center">
 
-Para inicializar o projeto após ter baixado o código fonte desse respositório basta rodar os comandos listados abaixo na ordem em que estão aparacendo.
+# Disney API
+
+![test](https://img.shields.io/badge/version-1.0.0-success) ![npm](https://img.shields.io/badge/npm-9.6.3-informational) ![vite](https://img.shields.io/badge/VITE-4.3.5-informational)
+
+This repository is an exercise from college, with the objective to consume the [Disney API](https://disneyapi.dev/).
+
+That API is hosted on Heroku and was created by [ManuCastrillonM](https://github.com/ManuCastrillonM/disney-api).
+
+<br />
+
+[Getting started](#getting-started) • [Exercise](#grin-exercise) • [Project running](#open_mouth-project-running)
+
+<br/>
+
+</div>
+
+## Getting started
+
+Clone this repository using the command below
+
+```bash
+git clone https://github.com/ViniciusLucchesi/disney-api-vue.git
+```
+
+After that run
 
 ```bash
 npm install
@@ -10,22 +34,20 @@ npm install
 npm run dev
 ```
 
-O comando `npm install`  instalar os pacotes do `Node.js` que estão especificados no arquivo `package.json`, tornando simples a instalação de todas as dependências necessárias para que o projeto funcione corretamente.
+The `npm install` command installs the `Node.js` packages that are specified in the `package.json` file, making it simple to install all the necessary dependencies for the project to work properly.
 
-O comando `npm run dev` inicializa o projeto, subindo um servidor local na URL `http://localhost:5173/` que poderá ser acessada para visualizar o projeto em funcionamento.
+The `npm run dev` command starts the project, uploading a local server at the URL `http://localhost:5173/` which can be accessed to view the project in operation.
 
-# :grin: Do que se trata?
+# :grin: Exercise
 
-Esse projeto é um exercício na aula de `Eletiva II` da faculdade, onde foram impostas as seguintes condições para a conslusão do exercício:
+- Create a project using **Vue**;
+- Make request to `Disney API` _https://disneyapi.dev/_;
+- Have a search bar to call different `endpoints`;
+- Show the **name** and **image** of the characters returned by the API;
+- **(Optional)** Style the page;
 
-- Criar um projeto em Vue;
-- Realizar requisições para a `Disney API` _https://disneyapi.dev/_;
-- Possuir uma barra de pesquisa para chamar diferentes `endpoints`;
-- Mostrar o **nome** e a **imagem** dos personagens retornados pela API;
-- **(Opcional)** Estilizar a página;
+# :open_mouth: Project running
 
-# :open_mouth: Imagem do projeto rodando
-
-Nesta imagem podemos ver que o nome do personagem pesquisado foi **pines**, que é o sobrenome dos personagens principais do desenho **Gravity Falls**, retornando assim toda a família dos personagens principais que a API possui.
+In this image we can see that the name of the searched character was **pines**, which is the last name of the main characters of the drawing **Gravity Falls**, thus returning the entire family of main characters that the API has.
 
 ![Alt text](public/disney-api-vue.png)
